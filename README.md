@@ -1,2 +1,2 @@
 # booking-site-php-pdo-project
-a booking site projetct with php and pdo using class code
+a booking site project with php using class code and pdo and bootstrap 
