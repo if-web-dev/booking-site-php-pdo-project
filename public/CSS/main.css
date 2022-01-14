@@ -1,0 +1,100 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0px;
+	list-style:none
+}
+
+*, body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1{
+background-color: hsla(0, 0%, 100%, 1);
+margin: 0;
+}
+
+h2, h3, h4, h5 {
+	font-weight: bolder;
+}
+
+
+.parallax {
+/* The image used */
+background-image: url("../Assets/images/image_header.jpg");
+/* Set a specific height */
+min-height: 70vh;
+width: 100%;
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: top center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.hotel-bg {
+/* The image used */
+background-image: url("../Assets/images/hotel-background.png");
+width: 100%;
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: repeat;
+background-size: cover;
+}
+
+.parallax h1 {
+background-color:rgba(255, 255, 255, 0);
+color: white;
+text-shadow: 5px 5px 5px #212529;
+}
+
+.parallax a{
+font-size: 35px;
+box-shadow: 5px 5px 5px #212529;
+}
+
+.container-fluid {
+border: 1px solid rgba(0,0,0,.125);
+border-radius: .25rem;
+}
+
+section:not(.hotel) {
+max-width: 75%;
+}
+
+
+@media (max-width: 900px) {
+
+	.parallax{
+		min-height: 50vh;
+		background-position: top;
+		background-size: cover;
+	}
+
+}
+
+@media (max-width: 1200px) {
+
+    .parallax{
+        min-height: 50vh;
+        background-position: top;
+    }
+
+	.booking {
+		text-align: center;
+	}
+
+	section:not(.hotel) {
+		max-width: 90%;
+	}
+
+	#hotel-form {
+		max-width: 450px;
+		margin: auto;
+	}
+}
