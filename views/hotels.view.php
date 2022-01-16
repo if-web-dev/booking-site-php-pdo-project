@@ -30,7 +30,7 @@ require_once ('./controllers/form.controller.php');
               $hotel_card.="<h5 class='card-title'>".$result["hotel_name"]."</h5>";
               $hotel_card.="<p class='card-text'><small class='text-muted'>".$result["hotel_adresse"]."</small></p>";
               $hotel_card.="<p class='card-text'>".$result["hotel_presentation"]."</p>";
-              $hotel_card.="<a href='#form' id='btn-".$result["id"]."' class='btn btn-dark'>Réserver!</a>";
+              $hotel_card.="<button type='button' id='btn-".$result["id"]."' class='btn btn-dark'>Réserver!</button>";
               $hotel_card.="</div>";
               $hotel_card.="</div>";
               $hotel_card.="</li>";
@@ -57,7 +57,7 @@ require_once ('./controllers/form.controller.php');
 
                       <div class="col-md-12">
                           <label for="hotel_name">Choix de l'hotel (*) :</label>
-                          <select name="hotel_id" id="hotel_name" required>
+                          <select class="form-control" name="hotel_id" id="hotel_name" required>
                               <option value="">--Choisissez un hotel--</option>
                               
                               <?php foreach($results as $result):?>

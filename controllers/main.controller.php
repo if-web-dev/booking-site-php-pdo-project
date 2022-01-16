@@ -41,6 +41,7 @@ class MainController{
             "page_title" => "Les hotels",
             "view" => "views/hotels.view.php",
             "page_css" => "hotel.css",
+            "page_js" => "form_complete.js",
             "template" => "views/common/template.view.php"
         ];
         $this->generatePage($data_page);

@@ -67,6 +67,11 @@ section:not(.hotel) {
 max-width: 75%;
 }
 
+.form-control:focus {
+	border: 5px solid #f37c2d!important;
+	box-shadow:none !important;
+}
+
 
 @media (max-width: 900px) {
 
