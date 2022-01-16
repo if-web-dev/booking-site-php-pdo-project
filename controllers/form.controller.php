@@ -16,7 +16,7 @@ if (isset($_POST['hotel_id']) && isset($_POST['submit']) && isset($_POST['date_m
 
             $message= "Veuillez selectionner une date de fin posterieure à la date de début";
     
-        }elseif((strtotime($_POST['date_min']) OR strtotime($_POST['date_max'])) <= strtotime("today")){
+        }elseif((strtotime($_POST["date_min"])<strtotime("today"))||(strtotime($_POST["date_max"])<strtotime("taday"))){
 
             $message= "Veuillez selectionner la date d'aujourd'hui ou posterieur à celle-ci";
 
