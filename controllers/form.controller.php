@@ -8,7 +8,7 @@ require_once ('./models/ReservationManager.model.php');
 
 
 
-if (isset($_POST['hotel_id']) && isset($_POST['submit']) && isset($_POST['date_min']) && isset($_POST['date_min']) && isset($_POST['user_name']) && isset($_POST['user_mail'])) {
+if (isset($_POST['submit'])) {//isset($_POST['hotel_id']) && isset($_POST['submit']) && isset($_POST['date_min']) && isset($_POST['date_min']) && isset($_POST['user_name']) && isset($_POST['user_mail'])) {
 
     if(!empty($_POST['hotel_id']) AND !empty($_POST['submit']) AND !empty($_POST['date_min']) AND !empty($_POST['date_max']) AND !empty($_POST['user_name']) AND !empty($_POST['user_mail'])){
 
