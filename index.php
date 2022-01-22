@@ -17,10 +17,10 @@ try {
     }
 
     switch($page){
+        
         case "accueil" : $mainController->home();
         break;
         case "hotels" : $mainController->hotels();
-        require_once ('./controllers/form.controller.php');
         break;
         case "contacts": $mainController->contacts();
         break;
