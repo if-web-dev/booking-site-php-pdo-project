@@ -1,5 +1,9 @@
 <?php
 
+require_once ('./models/GetHotelData.model.php');
+require_once ('./views/common/header.view.php');
+require_once ('./controllers/form.controller.php');
+
 ?>
 
 <div class="container-fluid hotel-bg">

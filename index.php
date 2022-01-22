@@ -17,7 +17,6 @@ try {
     }
 
     switch($page){
-        
         case "accueil" : $mainController->home();
         break;
         case "hotels" : $mainController->hotels();
