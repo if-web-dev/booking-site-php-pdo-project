@@ -16,12 +16,14 @@ class MainController{
         extract($data);
         ob_start();
         require_once($view);
+        if($view == "views/hotels.view.php"){
+            require_once("controllers/form.controller.php"); //appel du traitement du formulaire de reservation que si c'est la page hotel qui est appellé.
+            require_once ('./models/GetHotelData.model.php'); //appel en db des infos liées aux hotels.
+        };
         $page_content = ob_get_clean();
         require_once($template);
     }
 
-    //Propriété "page_css" : tableau permettant d'ajouter des fichiers CSS spécifiques
-    //Propriété "page_javascript" : tableau permettant d'ajouter des fichiers JavaScript spécifiques
 
     public function home(){
 
@@ -40,8 +42,8 @@ class MainController{
             "page_description" => "liste d'hotel",
             "page_title" => "Les hotels",
             "view" => "views/hotels.view.php",
-            "page_css" => "hotel.css",
-            "page_js" => "form_complete.js",
+            "page_css" => "hotel.css",//Propriété "page_css" : tableau permettant d'ajouter des fichiers CSS spécifiques
+            "page_js" => "form_complete.js",  //Propriété "page_javascript" : tableau permettant d'ajouter des fichiers JavaScript spécifiques
             "template" => "views/common/template.view.php"
         ];
         $this->generatePage($data_page);
