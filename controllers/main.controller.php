@@ -1,4 +1,5 @@
 <?php
+
 require_once("./models/GetHotelData.model.php");
 
 class MainController{

@@ -1,7 +1,6 @@
 <?php
 
 require_once ('./models/GetHotelData.model.php');
-require_once ('./views/common/header.view.php');
 require_once ('./controllers/form.controller.php');
 
 ?>
@@ -92,7 +91,7 @@ require_once ('./controllers/form.controller.php');
                         <input type="reset" class="btn btn-primary"></input>
                       </div>
 
-                      <?php if(isset($message)){echo "<p class='my-2' style='text-align: justify;'>".htmlspecialchars($message)."</p>";}?>
+                      <?php if(isset($message)){echo "<p class='my-2' style='text-align: justify; color: #e2d273;'>".htmlspecialchars($message)."</p>";}?>
         
                     </form>
                 </div>
