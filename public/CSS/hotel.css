@@ -38,7 +38,7 @@
 }
 
 
-.form-content label, .was-validated .form-check-input:invalid~.form-check-label, .was-validated .form-check-input:valid~.form-check-label{
+.form-content label {
     color: #fff;
 }
 
@@ -55,7 +55,7 @@
     color: #8D8D8D;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    margin-top: 16px;
+    margin-top: 8px;
 }
 
 #hotel-form {

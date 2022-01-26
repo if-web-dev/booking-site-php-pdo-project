@@ -1,9 +1,3 @@
-<?php
-
-require_once ('./models/GetHotelData.model.php');
-require_once ('./controllers/form.controller.php');
-
-?>
 
 <div class="container-fluid hotel-bg">
 
@@ -65,28 +59,28 @@ require_once ('./controllers/form.controller.php');
                           </select>
                       </div>
 
-                      <div class="col-md-12 mt-2">
+                      <div class="col-md-12 mt-3">
                         <label>Date de début (*) :</label>
                         <input class="form-control" type="date" name="date_min" id="date_min" min="<?php echo $today ?>" placeholder="Full Name" required>
                       </div>
 
-                      <div class="col-md-12 mt-2">
+                      <div class="col-md-12 mt-3">
                           <label>Date de fin (*) :</label>
                           <input class="form-control" type="date" name="date_max" id="date_max" min="<?php echo $today ?>" placeholder="Full Name" required>  
                       </div>
 
-                      <div class="col-md-12 mt-2">
+                      <div class="col-md-12 mt-3">
                           <label for="user_name">Votre nom (*) :</label>
                           <input class="form-control" type="text" name="user_name" placeholder="Nom" required>
                       </div>
 
 
-                      <div class="col-md-12 mt-2">
+                      <div class="col-md-12 mt-3">
                           <label>Votre adresse e-mail (*) :</label>
                           <input class="form-control" type="email" name="user_mail" placeholder="Exemple@Exemple.fr" required>
                       </div>
 
-                      <div class="form-button mt-4">
+                      <div class="form-button mt-5">
                         <input type="submit" name="submit" class="btn btn-primary"></input>
                         <input type="reset" class="btn btn-primary"></input>
                       </div>

@@ -16,6 +16,11 @@ class MainController{
     private function generatePage($data){
         extract($data);
         ob_start();
+        if ($view == "views/hotels.view.php" ){
+
+            require_once ('controllers/form.controller.php'); //insertion du form controller si c'est la view hotel qui est gérée.
+            
+        }
         require_once($view);
         $page_content = ob_get_clean();
         require_once($template);
