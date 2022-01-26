@@ -1,33 +1,6 @@
 <?php
 
-require_once("./models/GetHotelData.model.php");
-
 class MainController{
-    
-    // a revoir !!!!!
-    private $mainManager;
-
-    public function __construct(){
-
-        $this->mainManager = new getHotelDatas();
-    }
-    // a revoir !!!
-
-    private function generatePage($data){
-        extract($data);
-        ob_start();
-        if ($view == "views/hotels.view.php" ){
-
-            require_once ('controllers/form.controller.php'); //insertion du form controller si c'est la view hotel qui est gérée.
-            
-        }
-        require_once($view);
-        $page_content = ob_get_clean();
-        require_once($template);
-    }
-
-    //Propriété "page_css" : tableau permettant d'ajouter des fichiers CSS spécifiques
-    //Propriété "page_javascript" : tableau permettant d'ajouter des fichiers JavaScript spécifiques
 
     public function home(){
 
@@ -39,6 +12,9 @@ class MainController{
         ];
         $this->generatePage($data_page);
     }
+
+    //Propriété "page_css" : tableau permettant d'ajouter des fichiers CSS spécifiques
+    //Propriété "page_javascript" : tableau permettant d'ajouter des fichiers JavaScript spécifiques
 
     public function hotels(){
 
@@ -74,5 +50,18 @@ class MainController{
             "template" => "views/common/template.view.php"
         ];
         $this->generatePage($data_page);
+    }
+
+    private function generatePage($data){
+        extract($data);
+        ob_start();
+        if ($view == "views/hotels.view.php" ){
+
+            require_once ('controllers/form.controller.php'); //insertion du form controller si c'est la view hotel qui est gérée.
+            
+        }
+        require_once($view);
+        $page_content = ob_get_clean();
+        require_once($template);
     }
 }

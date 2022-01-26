@@ -4,6 +4,8 @@ class reservationManager extends Model {
 
     public function addReservation (Reservation $reservation){
 
+        //requete permettant de trouver un numero de chambre dans la table chambre qui n'est pas inscrit dans la table reservetion dans un creneau chronologique précis.
+
         $sql = "SELECT room_number FROM hotel_room WHERE id_hotel=:id_hotel AND room_number NOT IN (SELECT id_room FROM reservations WHERE ((date_min<=:datemin AND date_max>:datemin) OR (date_min<:datemax AND date_max>=:datemax)) AND id_hotel=:id_hotel)";
 
         $stmt=$this->getBdd()->prepare($sql);
@@ -13,7 +15,7 @@ class reservationManager extends Model {
         $stmt->execute();
         $id_available_room = $stmt->fetch();//array contenant les chambres disponibles, retourne false si pas de chambre dispo
         
-        if ($id_available_room) {
+        if ($id_available_room) {// si presence d'une chambre dispo, on fait une insertion dans la reservation
 
             $sql ="INSERT INTO reservations (id_client, date_min, date_max, date_today, id_hotel, id_room) VALUES (:id_client, :datemin, :datemax, NOW(), :id_hotel, :id_room )";
             $stmt=$this->getBdd()->prepare($sql);
@@ -26,14 +28,14 @@ class reservationManager extends Model {
             $stmt->execute();
             return $this->getReservation();//retourne le message de confirmation de la reservation avec le détail de celle-ci
 
-        }else{
+        }else{ // si pas de chambre dispo, message d'erreur a afficher.
 
             $message = "Periode non disponible, veuillez choisir une autre période";
             return $message;
         }
     }
 
-    public function getReservation (){
+    public function getReservation (){ 
 
         $sql = "SELECT A.client_name, A.client_email, B.date_min, B.date_max,
         B.date_today, C.hotel_name, C.hotel_adresse, D.room_number
