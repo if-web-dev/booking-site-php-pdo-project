@@ -20,9 +20,9 @@
               $hotel_card.="<div class='card mb-3 shadow'>";
               $hotel_card.="<img src='./public/Assets/images/chambre-".$result["id"].".jpg' class='card-img-top' alt='chambre".$result["id"]."'>";
               $hotel_card.="<div class='card-body'>";
-              $hotel_card.="<h5 class='card-title'>".$result["hotel_name"]."</h5>";
-              $hotel_card.="<p class='card-text'><small class='text-muted'>".$result["hotel_adresse"]."</small></p>";
-              $hotel_card.="<p class='card-text'>".$result["hotel_presentation"]."</p>";
+              $hotel_card.="<h5 class='card-title'>".$result["hotel_names"]."</h5>";
+              $hotel_card.="<p class='card-text'><small class='text-muted'>".$result["hotel_adresses"]."</small></p>";
+              $hotel_card.="<p class='card-text'>".$result["hotel_descriptions"]."</p>";
               $hotel_card.="<button type='button' id='btn-".$result["id"]."' class='btn btn-dark'>Réserver!</button>";
               $hotel_card.="</div>";
               $hotel_card.="</div>";
@@ -54,19 +54,19 @@
                               <option value="">--Choisissez un hotel--</option>
                               
                               <?php foreach($results as $result):?>
-                              <option value="<?php echo $result['id'] ;?>"><?php echo $result['hotel_name'] ;?></option>
+                              <option value="<?php echo $result['id'] ;?>"><?php echo $result['hotel_names'] ;?></option>
                               <?php endforeach;?>
                           </select>
                       </div>
 
                       <div class="col-md-12 mt-3">
                         <label>Date de début (*) :</label>
-                        <input class="form-control" type="date" name="date_min" id="date_min" min="<?php echo $today ?>" placeholder="Full Name" required>
+                        <input class="form-control" type="date" name="date_start" id="date_start" min="<?php echo $today ?>" placeholder="Full Name" required>
                       </div>
 
                       <div class="col-md-12 mt-3">
                           <label>Date de fin (*) :</label>
-                          <input class="form-control" type="date" name="date_max" id="date_max" min="<?php echo $today ?>" placeholder="Full Name" required>  
+                          <input class="form-control" type="date" name="date_end" id="date_end" min="<?php echo $today ?>" placeholder="Full Name" required>  
                       </div>
 
                       <div class="col-md-12 mt-3">

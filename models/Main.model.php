@@ -1,6 +1,8 @@
 <?php
 
 abstract class Model{
+
+    //class permettant la connexion a la bd et retoune l'objet pdo
     
     private static $pdo;
 
