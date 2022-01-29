@@ -1,5 +1,5 @@
 # php-booking-site-project
 
-![BOOKINGCAPTURE!](public/Assets/images/Capture booking site.PNG)
+![BOOKINGCAPTURE!](https://github.com/if-web-dev/booking-site-php-pdo-project/blob/main/public/Assets/images/Capture%20booking%20site.PNG)
 
 Php booking site project with MVC architecture, pdo and bootstrap. 
