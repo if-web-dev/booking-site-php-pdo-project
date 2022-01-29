@@ -49,7 +49,7 @@
                     <form class="requires-validation" method="post" action="hotels" novalidate>
 
                       <div class="col-md-12">
-                          <label for="hotel_name">Choix de l'hotel (*) :</label>
+                          <label for="hotel_name">Choix de l'hotel * :</label>
                           <select class="form-control" name="hotel_id" id="hotel_name" required>
                               <option value="">--Choisissez un hotel--</option>
                               
@@ -60,23 +60,23 @@
                       </div>
 
                       <div class="col-md-12 mt-3">
-                        <label>Date de début (*) :</label>
+                        <label>Date de début * :</label>
                         <input class="form-control" type="date" name="date_start" id="date_start" min="<?php echo $today ?>" placeholder="Full Name" required>
                       </div>
 
                       <div class="col-md-12 mt-3">
-                          <label>Date de fin (*) :</label>
+                          <label>Date de fin * :</label>
                           <input class="form-control" type="date" name="date_end" id="date_end" min="<?php echo $today ?>" placeholder="Full Name" required>  
                       </div>
 
                       <div class="col-md-12 mt-3">
-                          <label for="user_name">Votre nom (*) :</label>
+                          <label for="user_name">Votre nom * :</label>
                           <input class="form-control" type="text" name="user_name" placeholder="Nom" required>
                       </div>
 
 
                       <div class="col-md-12 mt-3">
-                          <label>Votre adresse e-mail (*) :</label>
+                          <label>Votre adresse e-mail * :</label>
                           <input class="form-control" type="email" name="user_mail" placeholder="Exemple@Exemple.fr" required>
                       </div>
 
