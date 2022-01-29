@@ -1,13 +1,5 @@
 <?php
 
-require_once ('./models/Customer.model.php');
-require_once ('./models/GetHotelData.model.php');
-require_once ('./models/CustomerManager.model.php');
-require_once ('./models/Booking.model.php');
-require_once ('./models/BookingManager.model.php');
-
-
-
 if (isset($_POST['submit'])) {//isset($_POST['hotel_id']) && isset($_POST['submit']) && isset($_POST['date_min']) && isset($_POST['date_min']) && isset($_POST['user_name']) && isset($_POST['user_mail'])) {
 
     if(!empty($_POST['hotel_id']) AND !empty($_POST['submit']) AND !empty($_POST['date_start']) AND !empty($_POST['date_end']) AND !empty($_POST['user_name']) AND !empty($_POST['user_mail'])){
