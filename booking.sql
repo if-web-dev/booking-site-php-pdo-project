@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS `rooms` (
 ) 
 
 
-/*each hotel have 3 rooms*/
+/*each hotel has 3 rooms*/
 
 INSERT INTO `rooms` (`id`, `id_hotel`, `room_numbers`) VALUES
 (1, 1, 101),
