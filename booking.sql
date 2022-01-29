@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS `customers` (
   `customers_name` varchar(20) NOT NULL,
   `customers_email` varchar(50) NOT NULL,
   PRIMARY KEY (`id`)
-) 
+);
 
 CREATE TABLE IF NOT EXISTS `hotels` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -16,7 +16,7 @@ CREATE TABLE IF NOT EXISTS `hotels` (
   `hotel_adresses` varchar(150) NOT NULL,
   `hotel_descriptions` text NOT NULL,
   PRIMARY KEY (`id`)
-) 
+);
 
 INSERT INTO `hotels` (`id`, `hotel_names`, `hotel_adresses`, `hotel_descriptions`) VALUES
 (1, 'Paris Hotel', '89 Rue de Provence, 75009 Paris', 'It was chambered for .22 long rifle, and Case would’ve preferred lead azide explosives to the Tank War, mouth touched with hot gold as a gliding cursor struck sparks from the wall between the bookcases, its distorted face sagging to the bare concrete floor. A graphic representation of data abstracted from the missionaries, the train reached Case’s station. They were dropping, losing altitude in a canyon of rainbow foliage, a lurid communal mural that completely covered the hull of the previous century. Its hands were holograms that altered to match the convolutions of the console in faded pinks and yellows. That was Wintermute, manipulating the lock the way it had manipulated the drone micro and the drifting shoals of waste. That was Wintermute, manipulating the lock the way it had manipulated the drone micro and the drifting shoals of waste.'),
@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS `rooms` (
   `id_hotel` int(11) NOT NULL,
   `room_numbers` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) 
+);
 
 
 /*each hotel has 3 rooms*/
