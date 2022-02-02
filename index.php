@@ -26,6 +26,7 @@ try {
     switch($page){
         
         case "accueil" : $mainController->home();
+            /*switch($url[1]) si page de second niveau*/
         break;
         case "hotels" : $mainController->hotels();
         break;
@@ -36,5 +37,5 @@ try {
         
     }
 } catch (Exception $e){
-    $mainController->pageErreur($e->getMessage());
+    $mainController->pageErreur($e->getMessage()); /*gere l'erreur 404: page inexistante */
 }
