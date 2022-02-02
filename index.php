@@ -20,10 +20,11 @@ try {
         
     } else {
         $url = explode("/", filter_var($_GET['page'],FILTER_SANITIZE_URL));
-        $page = $url[0];
+        $page = $url[0];/*un seul niveau de page sera traité dans l'arborescence des page*/ 
     }
 
     switch($page){
+        
         case "accueil" : $mainController->home();
         break;
         case "hotels" : $mainController->hotels();
