@@ -10,6 +10,7 @@ require_once ('./models/BookingManager.model.php');
 
 
 require_once("./controllers/main.controller.php");
+
 $mainController = new MainController();
 
 try {
