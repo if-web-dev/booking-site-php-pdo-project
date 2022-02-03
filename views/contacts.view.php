@@ -10,7 +10,7 @@
                    <div class="border rounded bg-light col-size contact-item" >
                         <div class="content-center">
                             <div class="text-center">
-                                <img src="public/Assets/images/map.png" height="80" alt="map">
+                                <img src="<?= URL ?>/public/Assets/images/map.png" height="80" alt="map">
                                 <br><br>
                                 <h4>OUR MAIN OFFICE</h4>
                                 <p>709 rue jean baptiste martini,<br>69400 Villefranche-sur-Saone</p>
@@ -22,7 +22,7 @@
                     <div class="border rounded bg-light col-size contact-item" >
                         <div class="content-center">
                             <div class="text-center">
-                                <img src="public/Assets/images/telephone.png" height="80" alt="telephone">
+                                <img src="<?= URL ?>/public/Assets/images/telephone.png" height="80" alt="telephone">
                                 <br><br>
                                 <h4>PHONE NUMBER</h4>
                                 <p>04.74.02.86.99</p>
@@ -34,7 +34,7 @@
                     <div class="border rounded bg-light col-size contact-item" >
                         <div class="content-center">
                             <div class="text-center">
-                                <img src="public/Assets/images/fax.png" height="80" alt="fax">
+                                <img src="<?= URL ?>/public/Assets/images/fax.png" height="80" alt="fax">
                                 <br><br>
                                 <h4>FAX</h4>
                                 <p>04.74.01.02.03</p>
@@ -46,7 +46,7 @@
                      <div class="border rounded bg-light col-size contact-item" >
                          <div class="content-center">
                              <div class="text-center">
-                                <img src="public/Assets/images/email.png" height="80" alt="email">
+                                <img src="<?= URL ?>/public/Assets/images/email.png" height="80" alt="email">
                                 <br><br>
                                 <h4>E-MAIL</h4>
                                 <p>i.fouhal@hotmail.com</p>
@@ -67,9 +67,9 @@
                         When you lay me down sleeping and my heart is weeping. Because I'm keeping a place</p>
                         <div>
                             <h3 class="my-3">Follow Us</h3>
-                            <img src="public/Assets/images/facebook.png" class="mx-2" width="50" alt="logo-facebook">
-                            <img src="public/Assets/images/logo-twitter.png" class="mx-2" width="50" alt="logo-facebook">
-                            <img src="public/Assets/images/instagram.png" class="mx-2" width="50" alt="logo-facebook">
+                            <img src="<?= URL ?>/public/Assets/images/facebook.png" class="mx-2" width="50" alt="logo-facebook">
+                            <img src="<?= URL ?>/public/Assets/images/logo-twitter.png" class="mx-2" width="50" alt="logo-facebook">
+                            <img src="<?= URL ?>/public/Assets/images/instagram.png" class="mx-2" width="50" alt="logo-facebook">
                         </div>
                     </div>
                     

@@ -18,7 +18,7 @@
 
               $hotel_card="<li>";
               $hotel_card.="<div class='card mb-3 shadow'>";
-              $hotel_card.="<img src='./public/Assets/images/chambre-".$result["id"].".jpg' class='card-img-top' alt='chambre".$result["id"]."'>";
+              $hotel_card.="<img src='".URL."/public/Assets/images/chambre-".$result["id"].".jpg' class='card-img-top' alt='chambre".$result["id"]."'>";
               $hotel_card.="<div class='card-body'>";
               $hotel_card.="<h5 class='card-title'>".$result["hotel_names"]."</h5>";
               $hotel_card.="<p class='card-text'><small class='text-muted'>".$result["hotel_adresses"]."</small></p>";

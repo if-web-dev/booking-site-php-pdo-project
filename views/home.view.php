@@ -15,7 +15,7 @@
         <ul class="list-unstyled container-fluid bg-secondary">
              <li class="media my-4 row flex-column flex-sm-row">
                 <div class="mr-3 col-8 col-sm-3 col-lg-2 mt-2 mb-2">
-                    <img src="./public/Assets/images/taxi2.jpg" class="rounded shadow" width="100%" alt="image 2">
+                    <img src="<?= URL ?>/public/Assets/images/taxi2.jpg" class="rounded shadow" width="100%" alt="image 2">
                 </div>
                 <div class="media-body col-12 col-sm-9 col-10">
                     <h3>Des hotels bien desservis </h3>
@@ -26,7 +26,7 @@
             </li>
             <li class="media my-4 row flex-column flex-sm-row">
                 <div class="mr-3 col-8 col-sm-3 col-lg-2 mt-2 mb-2">
-                    <img src="./public/Assets/images/avion.jpg" class="rounded shadow" width="100%" alt="image 1">
+                    <img src="<?= URL ?>/public/Assets/images/avion.jpg" class="rounded shadow" width="100%" alt="image 1">
                 </div>
                 <div class="media-body col-12 col-sm-9 col-10">
                     <h3>Des destinations partout dans le monde</h3>
@@ -37,7 +37,7 @@
           </li>
           <li class="media my-4 row flex-column flex-sm-row">
                 <div class="mr-3 col-8 col-sm-3 col-lg-2 mt-2 mb-2">
-                    <img src="./public/Assets/images/connected.jpg" class="rounded shadow" width="100%" alt="image 3">
+                    <img src="<?= URL ?>/public/Assets/images/connected.jpg" class="rounded shadow" width="100%" alt="image 3">
                 </div>
             <div class="media-body col-12 col-sm-9 col-10">
                 <h3>Vous etes connectés partout </h3>
@@ -55,7 +55,7 @@
 
         <article class="col-12 col-md-6 col-lg-4 mt-1">
             <div class="card shadow p-3 mb-5 bg-body rounded">
-                <img src="./public/Assets/images/hotel-1.jpg" alt="image carte" class="card-img-top">
+                <img src="<?= URL ?>/public/Assets/images/hotel-1.jpg" alt="image carte" class="card-img-top">
                 <div class="card-body">
                     <h3 class="card-title">Dépaïsement tropical</h3>
                     <p class="card-text">
@@ -67,7 +67,7 @@
         </article>
         <article class="col-12 col-md-6 col-lg-4 mt-1">
             <div class="card shadow p-3 mb-5 bg-body rounded">
-                <img src="./public/Assets/images/hotel-2.jpg" alt="image carte" class="card-img-top">
+                <img src="<?= URL ?>/public/Assets/images/hotel-2.jpg" alt="image carte" class="card-img-top">
                 <div class="card-body">
                     <h3 class= "card-title">Un espace sobre</h3>
                     <p class="card-text">
@@ -79,7 +79,7 @@
         </article>
         <article class="col-12 col-md-6 col-lg-4 mt-1">
             <div class="card shadow p-3 mb-5 bg-body rounded">
-                <img src="./public/Assets/images/hotel-3.jpg" alt="image carte" class="card-img-top">
+                <img src="<?= URL ?>/public/Assets/images/hotel-3.jpg" alt="image carte" class="card-img-top">
                 <div class="card-body">
                     <h3 class="card-title">Un parfum d'orient</h3>
                     <p class="card-text">
@@ -91,7 +91,7 @@
         </article>
         <article class="col-12 col-md-6 col-lg-4 mt-1">
             <div class="card shadow p-3 mb-5 bg-body rounded">
-                <img src="./public/Assets/images/hotel-4.jpg" alt="image carte" class="card-img-top">
+                <img src= "<?= URL ?>/public/Assets/images/hotel-4.jpg" alt="image carte" class="card-img-top">
                 <div class="card-body">
                     <h3 class="card-title">Des vacances en ville</h3>
                     <p class="card-text">
