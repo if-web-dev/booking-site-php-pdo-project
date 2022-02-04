@@ -3,7 +3,7 @@
 
   <div class="row justify-content-center mx-3">
 
-    <section class="my-4 col-12 col-lg-6">
+    <section class="my-4 col-12 col-xl-6">
 
       <ul class="list-unstyled">
         <?php
@@ -37,7 +37,7 @@
 
     </section>
 <!--form reservation-->  
-    <section class="form-container col-12 col-md-6 booking mb-6">
+    <section class="form-container col-12 col-xl-6 booking mb-6">
 
       <div class="form-body" id="hotel-form">
           
@@ -48,7 +48,7 @@
                     <p class="text-center">Les champs (*) sont obligatoire.</p>
                     <form class="requires-validation row" method="post" action="hotels" novalidate>
 
-                      <div class="col-md-12 col-lg-6">
+                      <div class="col-lg-12 col-xl-6">
                         
                         <div class="col-md-12">
                             <label for="hotel_name">Choix de l'hotel * :</label>
@@ -73,7 +73,7 @@
 
                       </div>
 
-                      <div class=" col-md-12 col-lg-6">
+                      <div class=" col-lg-12 col-xl-6">
 
                         <div class="col-md-12">
                             <label for="user_name">Votre nom * :</label>
