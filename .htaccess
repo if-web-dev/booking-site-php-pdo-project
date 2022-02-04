@@ -7,5 +7,6 @@ RewriteCond %{REQUEST_FILENAME} !-d
 
 RewriteRule ^(.*)$ index.php?page=$1
 
-# nous spécifions que toutes les valeurs entre les parenthèses capturantes seront considérées par le serveur web comme une valeur du paramètre d'URL
-# 'page' (le $1 récupère ce qui est dans les parenthèses capturantes).
+# on passera donc de 
+# http://www.mon-site.com/index.php?page=home à
+# http://www.mon-site.com/home

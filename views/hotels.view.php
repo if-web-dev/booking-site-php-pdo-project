@@ -1,7 +1,7 @@
 
 <div class="container-fluid hotel-bg">
 
-  <div class="row justify-content-center">
+  <div class="row justify-content-center mx-3">
 
     <section class="my-4 col-12 col-lg-6">
 
@@ -86,14 +86,14 @@
                             <input class="form-control" type="email" name="user_mail" placeholder="Exemple@Exemple.fr" required>
                         </div>
 
-                        <div class="form-button mt-5">
+                        <div class="form-button mt-5 form-validation">
                           <input type="submit" name="submit" class="btn btn-primary"></input>
                           <input type="reset" class="btn btn-primary"></input>
                         </div>
 
-                        <?php if(isset($message)){echo "<p class='my-2' style='text-align: justify; color: #e2d273;'>".htmlspecialchars($message)."</p>";}?>
-
                       </div>
+
+                      <?php if(isset($message)){echo "<p class='my-3' style='text-align: justify; color: #39ff14;'>".htmlspecialchars($message)."</p>";}?>
 
                     </form>
                 </div>
