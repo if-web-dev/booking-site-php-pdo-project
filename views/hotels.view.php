@@ -43,9 +43,9 @@
           
         <div class="form-holder">
             <div class="form-content">
-                <div class="form-items shadow">
-                    <h3>Réservation</h3>
-                    <p>Les champs (*) sont obligatoire.</p>
+                <div class="form-items shadow-lg">
+                    <h2 class="text-center text-white">Réservation</h2>
+                    <p class="text-center">Les champs (*) sont obligatoire.</p>
                     <form class="requires-validation row" method="post" action="hotels" novalidate>
 
                       <div class="col-md-12 col-lg-6">

@@ -13,6 +13,10 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.nav-item a:hover {
+	color:#f37c2d!important;	
+}
+
 h1{
 background-color: hsla(0, 0%, 100%, 1);
 margin: 0;
