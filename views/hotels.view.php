@@ -3,7 +3,7 @@
 
   <div class="row justify-content-center mx-3">
 
-    <section class="my-4 col-12 col-xl-6">
+    <section class="my-4 col-12 col-xl-5">
 
       <ul class="list-unstyled">
         <?php
@@ -37,7 +37,7 @@
 
     </section>
 <!--form reservation-->  
-    <section class="form-container col-12 col-xl-6 booking mb-6">
+    <section class="form-container col-12 col-xl-5 booking mb-6">
 
       <div class="form-body" id="hotel-form">
           
