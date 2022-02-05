@@ -119,6 +119,10 @@
                                                     <button id="submit" type="submit" class="btn btn-primary">Register</button>
                                                 </div>
 
+                                                <div class="my-2" style='color: #39ff14;'>
+                                                    <?= $msg_sent ?>
+                                                </div>
+
                                             </form>
                                         </div>
                                     </div>

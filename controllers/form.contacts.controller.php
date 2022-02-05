@@ -18,5 +18,7 @@ if(isset($_POST['contact_email']) AND isset($_POST['contact_msg']) AND !empty(($
 
     mail($dest,"Booking site mail subject", $message);
 
+    $msg_sent="Votre message a été envoyé.";
+
 }
 
