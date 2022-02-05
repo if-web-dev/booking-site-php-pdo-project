@@ -120,7 +120,11 @@
                                                 </div>
 
                                                 <div class="my-2" style='color: #39ff14;'>
-                                                    <?= $msg_sent ?>
+                                                    <?php 
+                                                    if(isset($msg_sent)){
+                                                        echo $msg_sent;
+                                                    }  
+                                                    ?>
                                                 </div>
 
                                             </form>
