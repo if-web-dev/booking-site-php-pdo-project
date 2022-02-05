@@ -82,18 +82,18 @@
                                         <div class="form-items shadow">
                                             <h3>Contact Us</h3>
                                             <p>Fill in the data below.</p>
-                                            <form class="requires-validation" novalidate>
+                                            <form class="requires-validation" method="post" action="contacts" novalidate>
                     
                                                 <div class="col-md-12">
-                                                   <input class="form-control" type="text" name="name" placeholder="Full Name" required>
+                                                   <input class="form-control" type="text" name="contact_name" placeholder="Full Name" required>
                                                 </div>
                     
                                                 <div class="col-md-12">
-                                                    <input class="form-control" type="email" name="email" placeholder="E-mail Address" required>
+                                                    <input class="form-control" type="email" name="contact_email" placeholder="E-mail Address" required>
                                                 </div>
                     
                                                 <div class="col-md-12">
-                                                        <textarea class="form-control mt-3" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" required></textarea>
+                                                    <textarea class="form-control mt-3" name="contact_msg" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" required></textarea>
                                                 </div>
                     
                                                 <div class="col-md-12 mt-3">

@@ -57,8 +57,11 @@ class MainController{
         ob_start();
         if ($view == "views/hotels.view.php" ){
 
-            require_once ('controllers/form.controller.php'); //insertion du form controller si c'est la view hotel qui est gérée.
+            require_once ('controllers/form.hotel.controller.php'); //insertion du form controller si c'est la view hotel qui est gérée.
             
+        }elseif($view == "views/contacts.view.php"){
+
+            require_once ('controllers/form.contacts.controller.php');
         }
         require_once($view);
         $page_content = ob_get_clean();
