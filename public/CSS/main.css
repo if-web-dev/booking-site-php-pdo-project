@@ -57,7 +57,7 @@ color: white;
 text-shadow: 5px 5px 5px #212529;
 }
 
-.parallax a{
+.parallax a {
 font-size: 35px;
 box-shadow: 5px 5px 5px #212529;
 }
@@ -74,6 +74,24 @@ max-width: 75%;
 .form-control:focus {
 	border: 5px solid #f37c2d!important;
 	box-shadow:none !important;
+}
+
+.btn-primary {
+    background-color: #6C757D;
+    outline: none;
+    border: 0px;
+    box-shadow: none;
+}
+
+.btn-dark, .btn-secondary {
+    outline: none;
+    border: 0px;
+    box-shadow: none;
+}
+
+.btn-primary:hover, button:hover, .btn-primary:focus, .btn-secondary:hover, .btn-primary:active {
+    background-color: #f37c2d!important;
+    outline: none!important;
 }
 
 
@@ -102,8 +120,4 @@ max-width: 75%;
 		max-width: 90%;
 	}
 
-	#hotel-form {
-		max-width: 450px;
-		margin: auto;
-	}
 }

@@ -39,7 +39,7 @@
 <!--form reservation-->  
     <section class="form-container col-12 col-xl-5 booking mb-6">
 
-      <div class="form-body" id="hotel-form">
+      <div class="form-body mb-5" id="hotel-form">
           
         <div class="form-holder">
             <div class="form-content">
@@ -48,9 +48,9 @@
                     <p class="text-center">Les champs (*) sont obligatoire.</p>
                     <form class="requires-validation row" method="post" action="hotels" novalidate>
 
-                      <div class="col-lg-12 col-xl-6">
+                      <div class="col-sm-12 col-md-6">
                         
-                        <div class="col-md-12">
+                        <div class="col-sm-12">
                             <label for="hotel_name">Choix de l'hotel * :</label>
                             <select class="form-control" name="hotel_id" id="hotel_name" required>
                                 <option value="">--Choisissez un hotel--</option>
@@ -61,27 +61,27 @@
                             </select>
                         </div>
 
-                        <div class="col-md-12 mt-3">
+                        <div class="mt-3">
                           <label>Date de début * :</label>
                           <input class="form-control" type="date" name="date_start" id="date_start" min="<?php echo $today ?>" placeholder="Full Name" required>
                         </div>
 
-                        <div class="col-md-12 mt-3">
+                        <div class="mt-3">
                             <label>Date de fin * :</label>
                             <input class="form-control" type="date" name="date_end" id="date_end" min="<?php echo $today ?>" placeholder="Full Name" required>  
                         </div>
 
                       </div>
 
-                      <div class=" col-lg-12 col-xl-6">
+                      <div class=" col-sm-12 col-md-6">
 
-                        <div class="col-md-12">
+                        <div class="">
                             <label for="user_name">Votre nom * :</label>
                             <input class="form-control" type="text" name="user_name" placeholder="Nom" required>
                         </div>
 
 
-                        <div class="col-md-12 mt-3">
+                        <div class="mt-3">
                             <label>Votre adresse e-mail * :</label>
                             <input class="form-control" type="email" name="user_mail" placeholder="Exemple@Exemple.fr" required>
                         </div>
