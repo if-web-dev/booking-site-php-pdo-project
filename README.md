@@ -6,8 +6,6 @@
 
 * The site uses a Mysql database called "booking".
 
-![UMLCAPTURE!](https://github.com/if-web-dev/booking-site-php-pdo-project/blob/main/public/Assets/images/ER-diagram.PNG)
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/if-web-dev/booking-site-php-pdo-project/main/public/Assets/images/ER-diagram.PNG" alt="ER-diagram"/>
 </p>
