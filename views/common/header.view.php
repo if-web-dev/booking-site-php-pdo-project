@@ -3,9 +3,9 @@
 
 <div class="wrapper">
 
-	<header class="sticky-top">
+	<header class="sticky-top bg-white">
 
-		<h1 class="google-font display-4 text-center">BOOKING site</h1>
+		<h1 class="google-font display-4 m-0 text-center">BOOKING site</h1>
 		
 		<nav class="container-fluid bg-dark tabs" >
 

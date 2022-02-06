@@ -7,7 +7,7 @@
             <div class="container px-4">
                 <div class="row g-5">
                   <div class="col-md-6 col-lg-3" >
-                   <div class="border rounded bg-light col-size contact-item" >
+                   <div class="border rounded bg-light col-size shadow-lg" >
                         <div class="content-center">
                             <div class="text-center">
                                 <img src="<?= URL ?>/public/Assets/images/map.png" height="80" alt="map">
@@ -19,7 +19,7 @@
                    </div>
                   </div>
                   <div class="col-md-6 col-lg-3">
-                    <div class="border rounded bg-light col-size contact-item" >
+                    <div class="border rounded bg-light col-size shadow-lg" >
                         <div class="content-center">
                             <div class="text-center">
                                 <img src="<?= URL ?>/public/Assets/images/telephone.png" height="80" alt="telephone">
@@ -31,7 +31,7 @@
                     </div>
                   </div>
                   <div class="col-md-6 col-lg-3">
-                    <div class="border rounded bg-light col-size contact-item" >
+                    <div class="border rounded bg-light col-size shadow-lg" >
                         <div class="content-center">
                             <div class="text-center">
                                 <img src="<?= URL ?>/public/Assets/images/fax.png" height="80" alt="fax">
@@ -43,7 +43,7 @@
                     </div>
                    </div>
                    <div class="col-md-6 col-lg-3">
-                     <div class="border rounded bg-light col-size contact-item" >
+                     <div class="border rounded bg-light col-size shadow-lg" >
                          <div class="content-center">
                              <div class="text-center">
                                 <img src="<?= URL ?>/public/Assets/images/email.png" height="80" alt="email">
@@ -79,7 +79,7 @@
                             <div class="row">
                                 <div class="form-holder">
                                     <div class="form-content">
-                                        <div class="form-items shadow">
+                                        <div class="form-items shadow-lg">
                                             <h3>Contact Us</h3>
                                             <p>Fill in the data below.</p>
                                             <form class="requires-validation" method="post" action="contacts" novalidate>
