@@ -6,7 +6,7 @@ Php booking site project with MVC architecture.
 
 * The site uses a Mysql database.
 
-![UMLCAPTURE!](https://github.com/if-web-dev/booking-site-php-pdo-project/blob/main/public/Assets/images/model relationnel.PNG)
+![UMLCAPTURE!](https://github.com/if-web-dev/booking-site-php-pdo-project/blob/main/public/Assets/images/model-relationnel.PNG)
 
 * A PHP form to book
 
