@@ -25,7 +25,7 @@
                                 <img src="<?= URL ?>/public/Assets/images/telephone.png" height="80" alt="telephone">
                                 <br><br>
                                 <h4>PHONE NUMBER</h4>
-                                <p>04.74.02.86.99</p>
+                                <p><br>04.74.02.86.99</p>
                             </div>
                         </div>
                     </div>
@@ -37,7 +37,7 @@
                                 <img src="<?= URL ?>/public/Assets/images/fax.png" height="80" alt="fax">
                                 <br><br>
                                 <h4>FAX</h4>
-                                <p>04.74.01.02.03</p>
+                                <p><br>04.74.01.02.03</p>
                             </div>
                         </div>
                     </div>
@@ -49,7 +49,7 @@
                                 <img src="<?= URL ?>/public/Assets/images/email.png" height="80" alt="email">
                                 <br><br>
                                 <h4>E-MAIL</h4>
-                                <p>i.fouhal@hotmail.com</p>
+                                <p><br>i.fouhal@hotmail.com</p>
                              </div>
                          </div>
                      </div>
