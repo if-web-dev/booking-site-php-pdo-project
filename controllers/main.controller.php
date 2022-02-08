@@ -21,6 +21,7 @@ class MainController{
         $data_page = [
             "page_description" => "liste d'hotel",
             "page_title" => "Les hotels",
+            "today" => date('Y-m-d'),
             "view" => "views/hotels.view.php",
             "page_css" => "hotel.css",
             "page_js" => "form_complete.js",

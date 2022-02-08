@@ -10,7 +10,7 @@
 
             $hotel_data = new getHotelDatas;
             $results = $hotel_data->getDatas();
-            $today = date('Y-m-d');
+            
            
             //var_dump($results);
 
