@@ -1,6 +1,6 @@
 <?php
 
-class Booking extends Customer {
+class Booking {
 
     private $_id_customer;
     private $_date_start;
@@ -9,8 +9,6 @@ class Booking extends Customer {
     
 
     public function __construct(array $form_data, $id_customer){
-
-        parent::__construct($form_data);
 
         $this->setIdCustomer((int)$id_customer);
         $this->setDateStart((string)$form_data["date_start"]);
