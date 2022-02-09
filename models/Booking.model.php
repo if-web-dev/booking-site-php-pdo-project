@@ -25,9 +25,9 @@ class Booking {
     }
     public function setDateStart($dateStart) {
         if(!empty($dateStart)){
-            list($y,$m,$d)=explode("-",$dateStart);
-            if(checkdate((int)$m,(int)$d,(int)$y)){
-                $this->_date_start=$dateStart;
+            list($y,$m,$d)=explode("-",$dateStart);//retourne les element de date en variable
+            if(checkdate((int)$m,(int)$d,(int)$y)){ //fonction retourne un boolean pour valider une date de calendrier gregorien
+                $this->_date_start=$dateStart;//si tout est bon en enregistre la date en propriété de l'objet
             }
         }
     }
