@@ -19,3 +19,5 @@
 * We show how we can load a specific js file by page. This js file manages the action of a button to book. 
 
 * Differents css files loaded specifically by page.
+
+* hotel page form and contact page formgit by AJAX traitment.
