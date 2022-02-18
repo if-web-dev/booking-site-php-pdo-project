@@ -37,7 +37,9 @@
 
     <!-- javascript personalisé -->   
         <?php if(!empty($page_js)) : ?>
-                <script src="<?= URL ?>public/JS/<?= $page_js ?>"></script>
+                <?php foreach($page_js as $file_js):?>
+                <script src="<?= URL ?>public/JS/<?= $file_js ?>"></script>
+                <?php endforeach ;?>
         <?php endif; ?>
         
     </body>

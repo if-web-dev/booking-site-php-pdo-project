@@ -24,7 +24,7 @@ class MainController{
             "today" => date('Y-m-d'),
             "view" => "views/hotels.view.php",
             "page_css" => "hotel.css",
-            "page_js" => "form_complete.js",
+            "page_js" => ["form_complete.js","ajax.js"],
             "template" => "views/common/template.view.php"
         ];
         $this->generatePage($data_page);
@@ -56,11 +56,8 @@ class MainController{
     private function generatePage($data){
         extract($data);
         ob_start();
-        if ($view == "views/hotels.view.php" ){
-
-            require_once ('controllers/form.hotel.controller.php'); //insertion du form controller si c'est la view hotel qui est gérée.
-            
-        }elseif($view == "views/contacts.view.php"){
+    
+        if($view == "views/contacts.view.php"){ //insertion du form controller si c'est la view hotel qui est gérée.
 
             require_once ('controllers/form.contacts.controller.php');
         }

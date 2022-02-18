@@ -2,11 +2,7 @@
 
 require_once ('./config/config.constant.php');
 
-require_once ('./models/Customer.model.php');
-require_once ('./models/GetHotelData.model.php');
-require_once ('./models/CustomerManager.model.php');
-require_once ('./models/Booking.model.php');
-require_once ('./models/BookingManager.model.php');
+require ('./models/GetHotelData.model.php');
 
 
 require_once("./controllers/main.controller.php");

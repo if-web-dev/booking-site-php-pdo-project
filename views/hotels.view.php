@@ -46,13 +46,14 @@
                 <div class="form-items shadow-lg">
                     <h2 class="text-center text-white">Réservation</h2>
                     <p class="text-center">Les champs (*) sont obligatoire.</p>
-                    <form class="requires-validation row" method="post" action="hotels" novalidate>
+
+                    <form class="requires-validation row" method="post" action="hotels" id="formHotel" novalidate>
 
                       <div class="col-sm-12 col-md-6">
                         
                         <div class="col-sm-12">
-                            <label for="hotel_name">Choix de l'hotel * :</label>
-                            <select class="form-control" name="hotel_id" id="hotel_name" required>
+                            <label for="hotel_id">Choix de l'hotel * :</label>
+                            <select class="form-control" name="hotel_id" id="hotel_id" required>
                                 <option value="">--Choisissez un hotel--</option>
                                 
                                 <?php foreach($results as $result):?>
@@ -87,13 +88,13 @@
                         </div>
 
                         <div class="form-button mt-5 form-validation">
-                          <input type="submit" name="submit" class="btn btn-primary"></input>
+                          <input type="submit" name="submit" class="btn btn-primary" value="Réserver"></input>
                           <input type="reset" class="btn btn-primary"></input>
                         </div>
 
                       </div>
 
-                      <?php if(isset($message)){echo "<p class='my-3' style='text-align: justify; color: #39ff14;'>".htmlspecialchars($message)."</p>";}?>
+                      <p id="result" class="my-3" ></p>
 
                     </form>
                 </div>
