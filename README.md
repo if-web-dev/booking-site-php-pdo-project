@@ -21,3 +21,5 @@
 * Differents css files loaded specifically by page.
 
 * Hotel page form and Contact page form by AJAX traitment.
+
+* Get the form AJAX response displayed in bootstrap modal window.

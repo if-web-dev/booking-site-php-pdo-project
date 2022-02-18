@@ -26,7 +26,7 @@ if(isset($_POST['submit'])){
     
     }else{
 
-        echo "Veuillez remplir tous les espaces";
+        echo "Veuillez remplir tous les espaces.";
 
 
     }
