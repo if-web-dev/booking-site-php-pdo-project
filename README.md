@@ -14,7 +14,7 @@
 
 * A PHP form contact in contacts.view.php using the php function mail() requiring the configuration of an apache server.
 
-* Boostrap with cdn links.
+* Responsive Boostrap site with cdn links.
 
 * We show how we can load a specific js file by page. This js file manages the action of a button to book. 
 
