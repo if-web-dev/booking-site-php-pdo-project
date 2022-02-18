@@ -1,7 +1,8 @@
 window.addEventListener("load", function(event) {
-    var formHotel = document.getElementById("formHotel");
+
+    var formContact = document.getElementById("contact-form");
     
-    formHotel.addEventListener('submit', function(event){
+    formContact.addEventListener('submit', function(event){
         //var data = new FormData(formHotel);
         event.preventDefault();
         
@@ -17,9 +18,9 @@ window.addEventListener("load", function(event) {
                 }
             }
         });
-        xhr.open("POST", "controllers/form.hotel.controller.php", true);
+        xhr.open("POST", "controllers/form.contacts.controller.php", true);
         xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded; charset=UTF-8");
-        xhr.send(`submit=${formHotel.submit.value}&user_name=${formHotel.user_name.value}&user_mail=${formHotel.user_mail.value}&date_start=${formHotel.date_start.value}&date_end=${formHotel.date_end.value}&hotel_id=${formHotel.hotel_id.value}`);
+        xhr.send(`submit=${formContact.submit.value}&contact_name=${formContact.contact_name.value}&contact_email=${formContact.contact_email.value}&contact_msg=${formContact.contact_msg.value}`);
         //xhr.send(data);
     });
 
