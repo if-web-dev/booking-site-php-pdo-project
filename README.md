@@ -1,6 +1,6 @@
 <h1 align="center">php-booking-site-project</h1>
 
-![BOOKINGCAPTURE!](https://github.com/if-web-dev/booking-site-php-pdo-project/blob/main/public/Assets/images/Capture-hotel.PNG)
+![BOOKINGCAPTURE!](https://github.com/if-web-dev/booking-site-php-pdo-project/blob/main/public/Assets/images/Capture-hotel-new.PNG)
 
 <h2 align="center">Php booking site project with MVC architecture.</h2>
 
