@@ -88,13 +88,11 @@
                         </div>
 
                         <div class="form-button mt-5 form-validation">
-                          <input type="submit" name="submit" class="btn btn-primary" value="Réserver"></input>
+                          <input type="submit" name="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" value="Réserver"></input>
                           <input type="reset" class="btn btn-primary"></input>
                         </div>
 
                       </div>
-
-                      <p id="result" class="my-3" ></p>
 
                     </form>
                 </div>

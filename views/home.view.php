@@ -10,7 +10,7 @@
     
     <section class="row px-3 mx-auto text-light" >
 
-        <h2 class="col-12 mt-4 mb-4 text-center">Pourquoi choisir nos services?</h2>
+        <h2 class="col-12 mt-4 mb-4 text-center text-dark">Pourquoi choisir nos services?</h2>
 
         <ul class="list-unstyled container-fluid bg-secondary shadow-lg">
              <li class="media my-4 row flex-column flex-sm-row">

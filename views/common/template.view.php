@@ -12,8 +12,9 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
-        <!--google-font-->  
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <!--bootstrap-cdn-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!--main-css-->
         <link href="<?= URL ?>public/CSS/main.css" rel="stylesheet" />
         <!-- page CSS personnalisé -->
         <?php if(!empty($page_css)) : ?>
@@ -22,6 +23,57 @@
     </head>
 
     <body>
+    
+    <!-- Modal -->
+
+    <?php if($view === "views/hotels.view.php" OR $view === "views/contacts.view.php") : ?>
+
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+
+                        <?php if($view === "views/hotels.view.php") : ?>
+                            <h5 class="modal-title" id="staticBackdropLabel">Votre Reservation :</h5>
+                        <?php endif; ?>
+                        <?php if($view === "views/contacts.view.php") : ?>
+                            <h5 class="modal-title" id="staticBackdropLabel">Votre demande de contact :</h5>
+                        <?php endif; ?>
+                        
+                        
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                <div class="modal-body" id="result">
+        
+                </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <!--<button type="button" class="btn btn-primary">Understood</button>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+               
+    <?php endif; ?>
+
+
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+            <div class="modal-body">
+                ...
+            </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!--header-->
         <?php require_once("views/common/header.view.php"); ?>
@@ -32,15 +84,17 @@
     <!--footer-->
         <?php require_once("views/common/footer.view.php"); ?>
 
-    <!-- cdn bootstrap -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-
+    
     <!-- javascript personalisé -->   
-        <?php if(!empty($page_js)) : ?>
+    <?php if(!empty($page_js)) : ?>
                 <?php foreach($page_js as $file_js):?>
                 <script src="<?= URL ?>public/JS/<?= $file_js ?>"></script>
                 <?php endforeach ;?>
         <?php endif; ?>
+
+    <!--Js cdn bootstrap -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         
     </body>
 </html>

@@ -116,18 +116,11 @@
                                                 </div>
                     
                                                 <div class="form-button mt-3">
-                                                    <input id="submit" type="submit" name="submit" class="btn btn-primary">Register</input>
+                                                    <input id="submit" type="submit" name="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >Register</input>
                                                 </div>
 
-                                                <div class="my-2"  >
-                                                   <?php /*
-                                                    if(isset($msg_sent)){
-                                                        echo $msg_sent;
-                                                    } */
-                                                    ?>
-                                                </div>
 
-                                                <p id="result" style='color: #39ff14;'></p>
+                                                <p style='color: #39ff14;'></p>
 
                                             </form>
                                         </div>
