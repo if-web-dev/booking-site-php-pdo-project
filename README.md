@@ -20,4 +20,4 @@
 
 * Differents css files loaded specifically by page.
 
-* hotel page form and contact page formgit by AJAX traitment.
+* Hotel page form and Contact page form by AJAX traitment.
