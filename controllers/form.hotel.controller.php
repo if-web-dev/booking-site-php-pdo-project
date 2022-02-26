@@ -10,9 +10,9 @@ require ('../models/Booking.model.php');
 require ('../models/BookingManager.model.php');
 
 //var_dump('#1');
-if (isset($_POST['submit'])) {//isset($_POST['hotel_id']) && isset($_POST['submit']) && isset($_POST['date_min']) && isset($_POST['date_min']) && isset($_POST['user_name']) && isset($_POST['user_mail'])) {
+if (isset($_POST)) {//isset($_POST['hotel_id']) && isset($_POST['submit']) && isset($_POST['date_min']) && isset($_POST['date_min']) && isset($_POST['user_name']) && isset($_POST['user_mail'])) {
 //var_dump('#2');
-    if(!empty($_POST['hotel_id']) AND !empty($_POST['submit']) AND !empty($_POST['date_start']) AND !empty($_POST['date_end']) AND !empty($_POST['user_name']) AND !empty($_POST['user_mail'])){
+    if(!empty($_POST['hotel_id']) AND !empty($_POST['date_start']) AND !empty($_POST['date_end']) AND !empty($_POST['user_name']) AND !empty($_POST['user_mail'])){
         //var_dump('#3');
         if (strtotime($_POST["date_start"])>=strtotime($_POST["date_end"])) {
             //var_dump('#4');

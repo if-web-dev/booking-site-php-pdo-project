@@ -23,3 +23,5 @@
 * Hotel page form and Contact page form by AJAX traitment.
 
 * Get the form AJAX response displayed in bootstrap modal window.
+
+* Use of FormData object as a parameter of the AJAX send() function instead of a parameter in URLencoded.

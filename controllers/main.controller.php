@@ -24,7 +24,7 @@ class MainController{
             "today" => date('Y-m-d'),
             "view" => "views/hotels.view.php",
             "page_css" => "hotel.css",
-            "page_js" => ["form_complete.js","hotel_ajax.js"],
+            "page_js" => ["hotel_ajax.js", "form_complete.js",],
             "template" => "views/common/template.view.php"
         ];
         $this->generatePage($data_page);

@@ -47,7 +47,7 @@
                     <h2 class="text-center text-white">Réservation</h2>
                     <p class="text-center">Les champs (*) sont obligatoire.</p>
 
-                    <form class="requires-validation row" method="post" action="hotels" id="formHotel" novalidate>
+                    <form class="row" method="POST" id="formHotel" novalidate>
 
                       <div class="col-sm-12 col-md-6">
                         
