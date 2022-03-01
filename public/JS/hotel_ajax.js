@@ -9,6 +9,7 @@ window.addEventListener("load", function(event) {
         var data = new FormData(formHotel);
         console.log(data);
         event.preventDefault();
+        event.stopPropagation();
         
         var xhr = new XMLHttpRequest();
         xhr.addEventListener('readystatechange', function(event){
