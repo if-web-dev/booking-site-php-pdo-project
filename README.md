@@ -4,7 +4,7 @@
 
 <h2 align="center">Php booking site project with MVC architecture.</h2>
 
-* The site uses a Mysql database called "booking".
+* The site uses a Back end PHP from scratch and a Mysql database called "booking".
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/if-web-dev/booking-site-php-pdo-project/main/public/Assets/images/ER-diagram.PNG" alt="ER-diagram"/>
