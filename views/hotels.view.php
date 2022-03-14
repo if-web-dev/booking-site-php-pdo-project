@@ -23,7 +23,7 @@
               $hotel_card.="<h5 class='card-title'>".$result["hotel_names"]."</h5>";
               $hotel_card.="<p class='card-text'><small class='text-muted'>".$result["hotel_adresses"]."</small></p>";
               $hotel_card.="<p class='card-text'>".$result["hotel_descriptions"]."</p>";
-              $hotel_card.="<button type='button' id='btn-".$result["id"]."' class='btn btn-dark'>Réserver!</button>";
+              $hotel_card.="<button type='button' id='btn-".$result["id"]."' class='btn violet-bg'>Réserver!</button>";
               $hotel_card.="</div>";
               $hotel_card.="</div>";
               $hotel_card.="</li>";
@@ -43,8 +43,8 @@
           
         <div class="form-holder">
             <div class="form-content">
-                <div class="form-items shadow-lg">
-                    <h2 class="text-center text-white">Réservation</h2>
+                <div class="violet-bg form-items shadow-lg">
+                    <h2 class="text-center text-dark">Réservation</h2>
                     <p class="text-center">Les champs (*) sont obligatoire.</p>
 
                     <form class="row" method="POST" id="formHotel" novalidate>
@@ -64,12 +64,12 @@
 
                         <div class="mt-3">
                           <label>Date de début * :</label>
-                          <input class="form-control" type="date" name="date_start" id="date_start" min="<?php echo $today ?>" placeholder="Full Name" required>
+                          <input class="form-control" type="date" name="date_start" id="date_start" min="" placeholder="Full Name" required>
                         </div>
 
                         <div class="mt-3">
                             <label>Date de fin * :</label>
-                            <input class="form-control" type="date" name="date_end" id="date_end" min="<?php echo $today ?>" placeholder="Full Name" required>  
+                            <input class="form-control" type="date" name="date_end" id="date_end" min="" placeholder="Full Name" required>  
                         </div>
 
                       </div>
@@ -88,8 +88,8 @@
                         </div>
 
                         <div class="form-button mt-5 form-validation">
-                          <input type="submit" name="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" value="Réserver"></input>
-                          <input type="reset" class="btn btn-primary"></input>
+                          <input type="submit" name="submit" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop" value="Réserver"></input>
+                          <input type="reset" class="btn btn-dark"></input>
                         </div>
 
                       </div>

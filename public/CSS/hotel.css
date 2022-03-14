@@ -11,11 +11,6 @@
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
-
-.form-items {
-    background-color: #152733;
-}
-
 .form-content h3 {
     color: #fff;
     text-align: left;
@@ -57,8 +52,6 @@
     transition: all 0.3s ease;
     margin-top: 8px;
 }
-
-
 
 #hotel-form {
     position: sticky;

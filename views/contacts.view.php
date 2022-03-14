@@ -116,12 +116,8 @@
                                                 </div>
                     
                                                 <div class="form-button mt-3">
-                                                    <input id="submit" type="submit" name="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >Register</input>
+                                                    <input id="submit" type="submit" name="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" ></input>
                                                 </div>
-
-
-                                                <p style='color: #39ff14;'></p>
-
                                             </form>
                                         </div>
                                     </div>
