@@ -1,5 +1,5 @@
 
-    <div class="parallax d-flex justify-content-center">
+    <div class="parallax d-flex justify-content-center px-4">
         <div class="d-flex flex-column justify-content-center align-items-center">
             <h1 class="text-center text-white">Réserver votre hotel partout dans le monde</h1>
             <!--<a href="hotels" class="btn btn-primary mt-3">Go!</a>-->
