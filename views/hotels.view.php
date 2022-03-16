@@ -23,7 +23,7 @@
               $hotel_card.="<h5 class='card-title'>".$result["hotel_names"]."</h5>";
               $hotel_card.="<p class='card-text'><small class='text-muted'>".$result["hotel_adresses"]."</small></p>";
               $hotel_card.="<p class='card-text'>".$result["hotel_descriptions"]."</p>";
-              $hotel_card.="<button type='button' id='btn-".$result["id"]."' class='btn violet-bg'>Réserver!</button>";
+              $hotel_card.="<button type='button' id='btn-".$result["id"]."' class='btn violet-bg shadow'>Réserver!</button>";
               $hotel_card.="</div>";
               $hotel_card.="</div>";
               $hotel_card.="</li>";
@@ -88,8 +88,8 @@
                         </div>
 
                         <div class="form-button mt-5 form-validation">
-                          <input type="submit" name="submit" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop" value="Réserver"></input>
-                          <input type="reset" class="btn btn-dark"></input>
+                          <input type="submit" name="submit" class="btn btn-dark shadow" data-bs-toggle="modal" data-bs-target="#staticBackdrop" value="Réserver"></input>
+                          <input type="reset" class="btn btn-dark shadow"></input>
                         </div>
 
                       </div>

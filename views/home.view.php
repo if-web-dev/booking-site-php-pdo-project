@@ -73,7 +73,7 @@
                     <p class="card-text">
                         A graphic representation of data abstracted from the banks of every computer in the dark, curled in his devotion to esoteric forms of tailor-worship. The two surviving Founders of Zion were old men, old with the movement of the train, their high heels like polished hooves against the gray metal of the previous century. 
                     </p>
-                    <a href="hotels" class="btn violet-bg">Lire la suite</a>
+                    <a href="hotels" class="btn violet-bg shadow">Lire la suite</a>
                 </div>
             </div>
         </article>
@@ -85,7 +85,7 @@
                     <p class="card-text">
                     Its hands were holograms that altered to match the convolutions of the blowers and the amplified breathing of the fighters. The Sprawl was a square of faint light. Images formed and reformed: a flickering montage of the Sprawl’s towers and ragged Fuller domes, dim figures moving toward him in the Japanese night.
                     </p>
-                    <a href="hotels" class="btn violet-bg">Lire la suite</a>
+                    <a href="hotels" class="btn violet-bg shadow">Lire la suite</a>
                 </div>
             </article>
         </article>
@@ -97,7 +97,7 @@
                     <p class="card-text">
                         Light from a service hatch at the rear wall dulling the roar of the spherical chamber. That was Wintermute, manipulating the lock the way it had manipulated the drone micro and the corners he’d cut in Night City, and still he’d see the matrix in his devotion to esoteric forms of tailor-worship.Bring me a meddal of honor to destroy opponents.
                     </p>
-                    <a href="hotels" class="btn violet-bg">Lire la suite</a>
+                    <a href="hotels" class="btn violet-bg shadow">Lire la suite</a>
                 </div>
             </article>
         </article>
@@ -109,7 +109,7 @@
                     <p class="card-text">
                         It was disturbing to think of the Flatline as a paid killer in the center of his closed left eyelid. It was disturbing to think of the Flatline as a paid killer in the coffin for Armitage’s call. The Sprawl was a long strange way home over the black water and the dripping chassis of a skyscraper canyon. It's a very hard story of a little red finger who was driver.
                     </p>
-                    <a href="hotels" class="btn violet-bg">Lire la suite</a>
+                    <a href="hotels" class="btn violet-bg shadow">Lire la suite</a>
                 </div>
             </div>
         </article>
