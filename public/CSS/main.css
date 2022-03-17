@@ -13,7 +13,11 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.nav-item a:hover {
+.container-fluid {
+	border: none !important;
+}
+
+.nav-item a:hover, footer a:hover {
 	color:#FBC638!important;	
 }
 
