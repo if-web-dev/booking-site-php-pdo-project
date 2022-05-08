@@ -1,8 +1,10 @@
 <?php
 
-class MainController{
+class MainController
+{
 
-    public function home(){
+    public function home()
+    {
 
         $data_page = [
             "page_description" => "Description de la page d'accueil",
@@ -16,7 +18,8 @@ class MainController{
     //Propriété "page_css" : tableau permettant d'ajouter des fichiers CSS spécifiques
     //Propriété "page_javascript" : tableau permettant d'ajouter des fichiers JavaScript spécifiques
 
-    public function hotels(){
+    public function hotels()
+    {
 
         $data_page = [
             "page_description" => "liste d'hotel",
@@ -30,7 +33,8 @@ class MainController{
         $this->generatePage($data_page);
     }
 
-    public function contacts(){
+    public function contacts()
+    {
 
         $data_page = [
             "page_description" => "Page de contacts",
@@ -43,7 +47,8 @@ class MainController{
         $this->generatePage($data_page);
     }
 
-    public function pageErreur($msg){
+    public function pageErreur($msg)
+    {
         $data_page = [
             "page_description" => "Page permettant de gérer les erreurs",
             "page_title" => "Page d'erreur",
@@ -54,7 +59,8 @@ class MainController{
         $this->generatePage($data_page);
     }
 
-    private function generatePage($data){
+    private function generatePage($data)
+    {
         extract($data);
         ob_start();
         require_once($view);

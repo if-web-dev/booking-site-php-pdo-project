@@ -7,30 +7,24 @@
 
 //var_dump("#1");
 
-if(isset($_POST['submit'])){
+if (isset($_POST['submit'])) {
 
-    if(isset($_POST['contact_email']) AND isset($_POST['contact_msg']) AND !empty(($_POST['contact_email']) AND !empty(($_POST['contact_msg']))) ){
+    if (isset($_POST['contact_email']) and isset($_POST['contact_msg']) and !empty(($_POST['contact_email']) and !empty(($_POST['contact_msg'])))) {
         //var_dump("#2");
-        $dest=$_POST['contact_email'];
-    
+        $dest = $_POST['contact_email'];
+
         /*Pour les messages de mails les lignes de plus de 70 caractere doivent etre tronqué*/
         $message = $_POST['contact_msg'];
-        
+
         $message = wordwrap($message, 70, "\r\n");
-    
-        mail($dest,"Booking site mail subject", $message);
-    
-        $msg_sent="Votre message a été envoyé.";
-    
+
+        mail($dest, "Booking site mail subject", $message);
+
+        $msg_sent = "Votre message a été envoyé.";
+
         echo $msg_sent;
-    
-    }else{
+    } else {
 
         echo "Veuillez remplir tous les espaces.";
-
-
     }
-
 }
-
-

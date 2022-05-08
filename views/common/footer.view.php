@@ -1,5 +1,3 @@
-
-
 <footer class="py-5 text-white violet-bg ">
 	<div class="row container-fluid justify-content-center">
 		<div class="col-5 col-xl-3">
@@ -9,7 +7,7 @@
 				</li>
 				<li>
 					<a href="hotels" class="text-decoration-none text-dark">Hotels</a>
-					
+
 				</li>
 				<li>
 					<a href="contacts" class="text-decoration-none text-dark">Contacts</a>
@@ -33,5 +31,4 @@
 			<p class="display-4 m-0 text-center">BOOKING site</p>
 		</div>
 	</div>
-	
 </footer>

@@ -1,24 +1,24 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .col-size {
- width: 100%;
- padding-top: 100%;
- transform: translateY(-140px);
+  width: 100%;
+  padding-top: 100%;
+  transform: translateY(-140px);
 }
 
 .content-center {
-position: absolute !important;
-top: 0;
-bottom: 0;
-right: 0;
-left: 0;
-display: flex;
-justify-content: center;
-align-items: center;
+  position: absolute !important;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -61,11 +61,15 @@ align-items: center;
 }
 
 
-.form-content label, .was-validated .form-check-input:invalid~.form-check-label, .was-validated .form-check-input:valid~.form-check-label{
+.form-content label,
+.was-validated .form-check-input:invalid~.form-check-label,
+.was-validated .form-check-input:valid~.form-check-label {
   color: #fff;
 }
 
-.form-content input[type=text], .form-content input[type=password], .form-content input[type=email] {
+.form-content input[type=text],
+.form-content input[type=password],
+.form-content input[type=email] {
   width: 100%;
   padding: 9px 20px;
   text-align: left;
@@ -82,18 +86,20 @@ align-items: center;
 }
 
 
-.btn-primary{
+.btn-primary {
   background-color: #6C757D;
   outline: none;
   border: 0px;
-   box-shadow: none;
+  box-shadow: none;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active{
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
   background-color: #495056;
   outline: none !important;
   border: none !important;
-   box-shadow: none;
+  box-shadow: none;
 }
 
 .form-content textarea {
@@ -115,10 +121,9 @@ align-items: center;
   margin-bottom: 14px;
 }
 
-.form-content textarea:hover, .form-content textarea:focus {
+.form-content textarea:hover,
+.form-content textarea:focus {
   border: 0;
   background-color: #ebeff8;
   color: #8D8D8D;
 }
-
-
