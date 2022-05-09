@@ -4,6 +4,8 @@
 
 <h2 align="center">Php booking site project with MVC architecture.</h2>
 
+* we can see the web site at https://booking-site.mon-test.fr/
+
 * The site uses a Back end PHP from scratch and a Mysql database called "booking".
 
 <p align="center">
