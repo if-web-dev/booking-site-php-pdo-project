@@ -1,6 +1,6 @@
 <footer class="py-5 text-white violet-bg ">
 	<div class="row container-fluid justify-content-center">
-		<div class="col-5 col-xl-3">
+		<div class="col-12 col-xl-3">
 			<ul>
 				<li>
 					<a href="accueil" class="text-decoration-none text-dark">Home</a>
@@ -14,7 +14,7 @@
 				</li>
 			</ul>
 		</div>
-		<div class="col-5 col-xl-3">
+		<div class="col-12 col-xl-3">
 			<ul>
 				<li>
 					<a href="#" class="text-decoration-none text-dark">Mentions légales</a>

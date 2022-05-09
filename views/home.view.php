@@ -19,13 +19,13 @@
 
 <main class="hotel-bg container-fluid pl-3 pr-3">
 
-    <section class="row px-3 mx-auto text-light">
+    <section class="row mx-auto text-light">
 
         <h2 class="col-12 mt-4 mb-4 text-center text-dark">Pourquoi choisir nos services?</h2>
 
         <ul class="list-unstyled container-fluid violet-bg shadow-lg">
-            <li class="media my-4 row flex-column flex-sm-row">
-                <div class="mr-3 col-8 col-sm-3 col-lg-2 mt-2 mb-2">
+            <li class="media my-4 row flex-column align-items-center flex-sm-row">
+                <div class="mr-3 col-12 col-sm-3 col-lg-2 mt-2 mb-2">
                     <img src="<?= URL ?>/public/Assets/images/taxi2.jpg" class="rounded shadow" width="100%" alt="image 2">
                 </div>
                 <div class="media-body col-12 col-sm-9 col-10">
@@ -35,8 +35,8 @@
                     </p>
                 </div>
             </li>
-            <li class="media my-4 row flex-column flex-sm-row">
-                <div class="mr-3 col-8 col-sm-3 col-lg-2 mt-2 mb-2">
+            <li class="media my-4 row flex-column align-items-center flex-sm-row ">
+                <div class="mr-3 col-12 col-sm-3 col-lg-2 mt-2 mb-2">
                     <img src="<?= URL ?>/public/Assets/images/avion.jpg" class="rounded shadow" width="100%" alt="image 1">
                 </div>
                 <div class="media-body col-12 col-sm-9 col-10">
@@ -46,8 +46,8 @@
                     </p>
                 </div>
             </li>
-            <li class="media my-4 row flex-column flex-sm-row">
-                <div class="mr-3 col-8 col-sm-3 col-lg-2 mt-2 mb-2">
+            <li class="media my-4 row flex-column align-items-center flex-sm-row">
+                <div class="mr-3 col-12 col-sm-3 col-lg-2 mt-2 mb-2">
                     <img src="<?= URL ?>/public/Assets/images/connected.jpg" class="rounded shadow" width="100%" alt="image 3">
                 </div>
                 <div class="media-body col-12 col-sm-9 col-10">
@@ -58,7 +58,7 @@
                 </div>
             </li>
         </ul>
-    </section>☺
+    </section>
 
 
     <section class="row mx-auto">

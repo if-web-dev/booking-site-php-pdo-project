@@ -1,7 +1,7 @@
 
 <div class="container-fluid hotel-bg">
 
-  <div class="row justify-content-center mx-3">
+  <div class="row justify-content-center mx-lg-3">
 
     <section class="my-4 col-12 col-xl-5">
 
@@ -49,7 +49,7 @@
 
                     <form class="row" method="POST" id="formHotel" novalidate>
 
-                      <div class="col-sm-12 col-md-6">
+                      <div class="col-12 col-sm-12 col-md-6">
                         
                         <div class="col-sm-12">
                             <label for="hotel_id">Choix de l'hotel * :</label>

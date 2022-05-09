@@ -82,7 +82,7 @@
                                     <div class="form-items shadow-lg">
                                         <h3>Contact Us</h3>
                                         <p>Fill in the data below.</p>
-                                        <form class="requires-validation" method="post" action="contacts#contact-form" novalidate id="contact-form">
+                                        <form class="requires-validation" method="post" novalidate id="contact-form">
 
                                             <div class="col-md-12">
                                                 <input class="form-control" type="text" name="contact_name" placeholder="Full Name" required>

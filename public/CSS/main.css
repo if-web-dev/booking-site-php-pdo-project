@@ -177,12 +177,16 @@ path.two {
 }
 
 section:not(.hotel) {
-	max-width: 75%;
+	max-width: 90%;
 }
 
 .form-control:focus {
 	border: 5px solid #FBC638 !important;
 	box-shadow: none !important;
+}
+
+.card-body a {
+	text-align:center!important;
 }
 
 .btn {
@@ -208,17 +212,7 @@ button:hover,
 }
 
 
-@media (max-width: 900px) {
-
-	.parallax {
-		min-height: 50vh;
-		background-position: top;
-		background-size: cover;
-	}
-
-}
-
-@media (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
 
 	.parallax {
 		min-height: 50vh;
@@ -229,7 +223,29 @@ button:hover,
 		text-align: center;
 	}
 
-	section:not(.hotel) {
+	section:not(.hotel)  {
+		max-width: 90%;
+	}
+
+	section:nth-of-type(2n) article {
+		padding:0px;
+	}
+
+}
+
+@media only screen and (max-width: 900px) {
+
+	.parallax {
+		min-height: 50vh;
+		background-position: top;
+		background-size: cover;
+	}
+
+	.parallax h1 {
+		font-size: 35px;
+	}
+
+	section:not(.hotel)  {
 		max-width: 90%;
 	}
 
