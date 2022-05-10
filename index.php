@@ -1,18 +1,15 @@
 <?php
 
 require_once ('./config/config.constant.php');
-
-require ('./models/GetHotelData.model.php');
-
-
-require_once("./controllers/main.controller.php");
+require_once ('./models/GetHotelData.model.php');
+require_once('./controllers/main.controller.php');
 
 $mainController = new MainController();
 
 try {
 
     if(empty($_GET['page'])){
-        $page = "accueil";
+        $page = 'accueil';
         
     } else {
         $url = explode("/", filter_var($_GET['page'],FILTER_SANITIZE_URL));
@@ -20,17 +17,15 @@ try {
     }
 
     switch($page){
-        
-        case "accueil" : $mainController->home();
+        case 'accueil' : $mainController->home();
             /*switch($url[1]) si page de second niveau*/
-        break;
-        case "hotels" : $mainController->hotels();
-        break;
-        case "contacts": $mainController->contacts();
-        break;
+            break;
+        case 'hotels' : $mainController->hotels();
+            break;
+        case 'contacts': $mainController->contacts();
+            break;
         default : 
-        throw new Exception("La page n'existe pas");
-        
+            throw new Exception('La page n\'existe pas');
     }
 } catch (Exception $e){
     $mainController->pageErreur($e->getMessage()); /*gere l'erreur 404: page inexistante */
