@@ -37,6 +37,10 @@ h5,
 	font-style: italic;
 }
 
+h3 {
+	font-weight:600;
+}
+
 
 .parallax {
 	/* The image used */
@@ -248,7 +252,7 @@ button:hover,
 }
 
 @media only screen and (max-width: 400px) {
-	
+
 	section:nth-of-type(2n) article {
 		padding:0px;
 	}
