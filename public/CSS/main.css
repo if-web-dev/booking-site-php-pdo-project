@@ -227,10 +227,6 @@ button:hover,
 		max-width: 90%;
 	}
 
-	section:nth-of-type(2n) article {
-		padding:0px;
-	}
-
 }
 
 @media only screen and (max-width: 900px) {
@@ -249,4 +245,11 @@ button:hover,
 		max-width: 90%;
 	}
 
+}
+
+@media only screen and (max-width: 400px) {
+	
+	section:nth-of-type(2n) article {
+		padding:0px;
+	}
 }
