@@ -18,6 +18,10 @@ body {
 	border: none !important;
 }
 
+header {
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
 .nav-item a:hover,
 footer a:hover {
 	color: #FBC638 !important;
@@ -38,7 +42,7 @@ h5,
 }
 
 h3 {
-	font-weight:500;
+	font-weight: 500;
 }
 
 
@@ -190,7 +194,7 @@ section:not(.hotel) {
 }
 
 .card-body a {
-	text-align:center!important;
+	text-align: center !important;
 }
 
 .btn {
@@ -224,6 +228,8 @@ footer h4 {
 }
 
 
+
+
 @media only screen and (max-width: 1200px) {
 
 	.parallax {
@@ -235,7 +241,7 @@ footer h4 {
 		text-align: center;
 	}
 
-	section:not(.hotel)  {
+	section:not(.hotel) {
 		max-width: 90%;
 	}
 
@@ -253,7 +259,7 @@ footer h4 {
 		font-size: 35px;
 	}
 
-	section:not(.hotel)  {
+	section:not(.hotel) {
 		max-width: 90%;
 	}
 
@@ -262,6 +268,10 @@ footer h4 {
 @media only screen and (max-width: 400px) {
 
 	section:nth-of-type(2n) article {
-		padding:0px;
+		padding: 0px;
+	}
+
+	.copyright {
+		font-size: 0.8rem;
 	}
 }

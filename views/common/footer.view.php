@@ -37,7 +37,7 @@
 			<p class="display-4 m-0 text-center">BOOKING site</p>
 		</div>
 	</div>
-	<div class="bg-dark text-center">
+	<div class="bg-dark text-center copyright">
 		<p class="m-0 py-2">Copyright © Booking-site | Designed by If-web-dev</p>
 	</div>
 </footer>
