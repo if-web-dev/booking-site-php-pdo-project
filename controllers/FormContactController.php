@@ -24,12 +24,10 @@ if (isset($_POST['submit'])) {
         if (mail($destinataire, $objet, $message, $headers, '-f' . $expediteur)) // Envoi du message
         {
             echo 'Votre message a bien été envoyé ';
+        } else { // Non envoyé
 
-        } else {// Non envoyé
-        
             echo "Votre message n'a pas pu être envoyé";
         }
-        
     } else {
 
         echo "Veuillez remplir tous les espaces.";
