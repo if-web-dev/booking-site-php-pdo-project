@@ -25,8 +25,6 @@ window.addEventListener("load", function(event) {
             }
         });
         xhr.open("POST", "./controllers/form.hotel.controller.php", true);
-        //xhr.setRequestHeader("Content-type","multipart/form-data");
-        //xhr.send(`submit=${formHotel.submit.value}&user_name=${formHotel.user_name.value}&user_mail=${formHotel.user_mail.value}&date_start=${formHotel.date_start.value}&date_end=${formHotel.date_end.value}&hotel_id=${formHotel.hotel_id.value}`);
         xhr.send(data);
        
     }); 
